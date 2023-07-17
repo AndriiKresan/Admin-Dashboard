@@ -3,24 +3,18 @@
   padding: 0;
 }
 
-div {
-  /* border: 2px solid black; */
-}
-
 ul {
   list-style-type: none;
 }
 
 .container {
   font-family: sans-serif;
-  /* height: 100vh; */
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 200px 1fr;
   grid-template-areas: 
     "sidebar header"
     "sidebar main";
-
 }
 
 .header {
@@ -170,8 +164,6 @@ ul:nth-child(1) svg:nth-child(1) {
   justify-items: center;
   align-items: end;
 }
-
-
 
 .main-right {
   display: grid;
